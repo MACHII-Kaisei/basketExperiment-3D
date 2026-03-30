@@ -1,0 +1,19 @@
+﻿# カメラデバイスID
+camera0: 2
+camera1: 3
+
+# 解像度設定
+frame_width: 1920
+frame_height: 1080
+
+# 録画設定 (FPS)
+fps: 30.0
+
+# キャリブレーション撮影設定
+# 自動撮影の間隔（フレーム数）
+# 例: 30fpsで100フレーム設定なら、約3.3秒ごとに撮影されます
+calibration_capture_interval: 100
+
+# ArUco設定（Python側のプレビュー表示用）
+aruco_dict: "DICT_4X4_50"
+aruco_marker_length: 0.55
