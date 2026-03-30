@@ -1,8 +1,8 @@
 # basketExperiment-3D
 
-バスケットボールのシュート軌跡をステレオカメラで三次元計測し、MRヘッドセット（Meta Quest 3）上に残像として可視化するためのシステムです。
+バスケットボールのシュート軌跡をステレオカメラで三次元計測し、MRヘッドセット（Meta Quest 3）上に残像として可視化するためのシステムです。大学の卒業研究に使用しました。
 
-![MR空間上でのシュート軌跡表示](images/imageFile14.png)
+https://github.com/user-attachments/assets/05f89d2a-89fe-4a58-9312-14791790695b
 
 ## 概要
 
@@ -47,16 +47,12 @@ basketExperiment-3D/
 ├── models/
 │   ├── best.pt                       # YOLOv8 学習済みモデル
 │   └── best-yolo11n.pt              # YOLOv11n 学習済みモデル
-├── params/
-│   ├── stereoParams.mat              # ステレオカメラキャリブレーションパラメータ
-│   └── marker_pose.mat               # ArUcoマーカー姿勢データ
 ├── core/
 │   ├── experiment_config.py          # 実験設定・定数・パス管理
 │   └── data_manager.py              # 実験データの保存・読み込み管理
 ├── utils_modules/
 │   ├── utils.py                      # カメラパラメータ読み込みユーティリティ
 │   └── plot_widget.py               # 軌跡プロット表示ウィジェット
-├── docs/                             # 技術ドキュメント・研究資料
 └── images/                           # 研究用画像
 ```
 
